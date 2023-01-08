@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+  /* This is a first section */
+.text-primary{
+    color: coral;
+}
+.btn-primary{
+    background: coral;
+    color: white;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    
+}
+.header{
+    background-image: url(/images/banner/banner1.png);
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.banner{
+    display: flex;
+    margin: 0 200px;
+  
+    
+}
+.banner-text{
+    margin-top: 20%;
+    margin-left: 50%;
+    
+}
+.banner-sub-title{
+  font-weight: 600;
+  font-size: 45px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-description{
+    font-size: 18;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* This is main section */
+.section{
+    margin-top: 130px;
+}
+
+.about-me{
+ margin-top: 130px;
+ background: #fff8f3;
+ border-radius: 10px;
+ padding: 130px 150px;
+}
+.section-title{
+   text-align: center;
+   margin-bottom: 30px;
+   font-weight: 700;
+   font-size: 35px;
+}
+.section-description{
+ font-size: 18px;
+ color: #757575;
+ margin-bottom: 30px;
+}
+/* About info */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-title{
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* This is a plane section */
+.my-plans{
+margin-top: 20px;
+padding-top: 30px;
+}
+
+.skills-container{
+ display: flex;
+}
+.skill-title{
+    text-align: center;
+font-weight: 700;
+font-size: 20px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+.skill{
+    text-align: center;
+    background: #FFFF;
+    padding: 30px;
+   margin: 10px;
+   
+}
+.skill-title{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+/* This is a More about section*/
+
+.more-about{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+.more-about-text{
+    margin-top: 20%;
+    justify-content: center;
+    margin-left: 15px;
+    margin-left: 5%;
+}
+.more-about-text h2{
+    font-weight: 800;
+    font-size: 45px;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+.more-about-text p{
+ font-size: 15px;
+ letter-spacing: 2px;
+ text-align: justify;
+}
+.more-about-text li{
+  list-style: circle;
+  list-style-image: url(/images/icons/mark-icon.png.png);
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: 4%;
+  font-size: 15px;
+ 
+}
+
+/* this is a gradient section*/
+.gridian-section{
+    background-image: linear-gradient(#8b00ff21, orange), url(/images/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.gradient-text{
+    font-weight: bold;
+    font-size: 35PX;
+    margin-left: 50px;
+    padding-top: 50px;
+    color: white;
+}
+.gradient-btn{
+    background-color: white;
+    color: coral;
+    padding: 15px 30px;
+    font-weight: 800;
+    border: none;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+/* This is a Footer section */
+
+footer{
+    height: 300px;
+    background: rgb(31, 25, 25);
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff8f3;
+    padding-top: 100px;
+}
+
+.footer-text{
+   color: white;
+ 
+
+}
+.footer-text h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.footer-text p{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.icon{
+    padding: 5px;
+
+}
+.fa-facebook{
+    color: 	#4267B2;
+    background: white;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 2px;
+}
+.fa-youtube{
+    color: #FF0000;
+    background: white;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 5px;
+}
+.fa-twitter{
+    color: #034586;
+    background: white;
+    padding: 5px;
+    border-radius: 50px;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.email-form input{
+    background: rgb(31, 25, 25);
+    color: #fff8f3;
+    padding:20px 40px;
+   
+}
+.footer-btn{
+    background-color: white;
+    color: coral;
+    padding: 15px 30px;
+    font-weight: 800;
+}
+.footer-text ul{
+    background: #b97575;
+}
+
